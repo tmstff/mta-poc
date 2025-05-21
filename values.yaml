@@ -1,0 +1,5 @@
+operatorNamespace: mta-poc
+tackleNamespace: mta-poc
+operatorGroupName: mta-operatorgroup
+subscriptionName: mta-operator
+tackleName: mta-poc

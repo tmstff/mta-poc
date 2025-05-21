@@ -1,0 +1,2 @@
+Created MTA Operator "{{ .Values.subscriptionName }}" in namespace "{{ .Values.operatorNamespace }}".
+Created MTA Instance "{{ .Values.tackleName }}" in namespace "{{ .Values.tackleNamespace }}".
