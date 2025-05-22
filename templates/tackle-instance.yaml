@@ -1,6 +1,8 @@
 apiVersion: tackle.konveyor.io/v1alpha1
 kind: Tackle
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
   name: {{ .Values.tackleName }}
   namespace: {{ .Values.tackleNamespace }}
 spec:
