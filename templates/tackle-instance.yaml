@@ -1,8 +1,8 @@
 apiVersion: tackle.konveyor.io/v1alpha1
 kind: Tackle
 metadata:
-  name: mta-poc
-  namespace: mta-poc
+  name: {{ .Values.tackleName }}
+  namespace: {{ .Values.tackleNamespace }}
 spec:
   hub_bucket_volume_size: 10Gi
   maven_data_volume_size: 10Gi
